@@ -1,0 +1,28 @@
+/*
+Author: Fábio Augusto Amaro Jaime
+Date: 27/07/2020
+Objective: Site that simulates a light switch, skills training with HTML, CSS and JS. Note: flaticon icons.
+*/
+
+h1 {
+    text-align: center;
+    color: white;
+}
+
+#background {
+    background-color: #252525;
+}
+
+#interruptorText {
+    display: block;
+    margin-top: 40px;
+    font-family: monospace;
+}
+
+#interruptor {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 215px;
+    height: 360px;
+}
