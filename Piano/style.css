@@ -13,81 +13,32 @@ body {
     margin-right: auto;
 }
 
+#piano [id^='b'] {
+    border-radius: 5px;
+    display: inline-flex;
+    background-color: white;
+    width: 108px;
+    height: 380px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    box-shadow: 0px -25px #BCBDBF inset;
+}
+
 #b1 {
-    border-radius: 5px;
-    display: inline-flex;
-    background-color: white;
-    width: 108px;
-    height: 380px;
     margin-left: 10px;
-    margin-bottom: 10px;
-    margin-top: 10px;
-    box-shadow: 0px -25px #BCBDBF inset;
-}
-
-#b2 {
-    border-radius: 5px;
-    display: inline-flex;
-    background-color: white;
-    width: 108px;
-    height: 380px;
-    margin-bottom: 10px;
-    margin-top: 10px;
-    box-shadow: 0px -25px #BCBDBF inset;
-}
-
-#b3 {
-    border-radius: 5px;
-    display: inline-flex;
-    background-color: white;
-    width: 108px;
-    height: 380px;
-    margin-bottom: 10px;
-    margin-top: 10px;
-    box-shadow: 0px -25px #BCBDBF inset;
-}
-
-#b4 {
-    border-radius: 5px;
-    display: inline-flex;
-    background-color: white;
-    width: 108px;
-    height: 380px;
-    margin-bottom: 10px;
-    margin-top: 10px;
-    box-shadow: 0px -25px #BCBDBF inset;
-}
-
-#b5 {
-    border-radius: 5px;
-    display: inline-flex;
-    background-color: white;
-    width: 108px;
-    height: 380px;
-    margin-bottom: 10px;
-    margin-top: 10px;
-    box-shadow: 0px -25px #BCBDBF inset;
-}
-
-#b6 {
-    border-radius: 5px;
-    display: inline-flex;
-    background-color: white;
-    width: 108px;
-    height: 380px;
-    margin-bottom: 10px;
-    margin-top: 10px;
-    box-shadow: 0px -25px #BCBDBF inset;
 }
 
 #b7 {
-    border-radius: 5px;
-    display: inline-flex;
-    background-color: white;
-    width: 108px;
-    height: 380px;
-    margin-bottom: 10px;
-    margin-top: 10px;
     margin-right: 10px;
-    box-shadow: 0px -25px #BCBDBF inset;
+}
+
+#piano [id^='p'] {
+    display: inline;
+    position: absolute;
+    background-color: black;
+    margin-left: -30px;
+    margin-top: 10px;
+    width: 54px;
+    height: 180px;
+    border-radius: 0px 0px 5px 5px;
 }
